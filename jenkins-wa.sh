@@ -31,7 +31,7 @@ export FN_LIST=(
   "d43-catalog_ts_v2_catalog"
 )
 export LAYER="arn:aws:lambda:us-east-2:581647696645:layer:pypy27:5"
-export AWS_CLI="/home/jenkins/.local/bin/aws"
+export AWS_CLI="docker run --rm -it amazon/aws-cli"
 
 export AWS_REGION="us-east-2"
 export AWS_DEFAULT_REGION=$AWS_REGION
